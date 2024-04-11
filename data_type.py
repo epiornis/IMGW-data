@@ -2,8 +2,9 @@
 # Name:        Get meteo data from https://www.danepubliczne.imgw.pl.
 # Created:     20.12.2023
 # Licence:     GNU
+# IDE:         PyCharm
 # Info:        Typy danych w plikach
-# ------------------------------------------------------------------------------- typ danych w pliku meteo
+# -------------------------------------------------------------------------------
 
 """
 'B00300S' # Temperatura powietrza (oficjalna)
