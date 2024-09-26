@@ -70,12 +70,12 @@ Stan wody kontrolny - są to obserwacje stanu wody, wykonywane przez pracownikó
 
 def hydro_type(file_name):
     if 'B00020S' in file_name:  # Stan wody operacyjny
-        return 'stan_wody'
+        return 'H'
     elif 'B00050S' in file_name:  # Przepływ operacyjny
-        return 'przeplyw'
+        return 'Q'
     elif 'B00014A' in file_name:  # Stan wody kontrolny
-        return 'stan_wody_kontrolny'
+        return 'H_control'
     elif 'B00101A' in file_name:  # Temperatura wody  (obserwator)
-        return 'temperatura'
+        return 'T'
     else:
         return 'none'
